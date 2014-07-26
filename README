@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4991
+
+the script combine {}, [], () into one text object ap
+
+==================
+1:  {
+2:      aaa                             // execute : dap, it will delete the {}, line1-line11
+3:      [
+4:           bbb                        // execute : vap, it will select the  [], line4-line8
+5:           (
+6:                ccc                    // execute : xap, it will cut the (), line5-line7
+7:            )
+8:            ddd
+9:      ]
+10:    ggg
+11:  }
+ 
+
+   
